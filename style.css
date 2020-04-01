@@ -1,0 +1,126 @@
+
+*{
+  margin:0;
+  padding:0;
+  font-family:calibri, "segoe ui", arial, tahoma, sans-serif;
+}
+body{
+  background-image: url("logo.jpg");
+  background-position: right top;
+}
+#wrapper{
+  width : 780px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header{
+  background-color: #616060;
+  height : 105px;
+  width : 100%;
+  padding:5px;
+  margin : 20px 0;
+  border-bottom: 1px solid #555;
+  overflow : hidden;
+}
+header img{
+  width:100px; 
+}
+nav{
+  margin-top:3px;
+  list-style:none;
+}
+nav li{
+  float:left;
+  padding:8px 20px;
+  border-right:1px solid #555555;
+}
+nav li a{
+  color : #ffffff;
+  text-decoration:none;
+  
+}
+header form{
+  float:right;
+  margin-top:5px;
+  margin-right:10px;
+}
+header form input{
+  border:none;
+  height:20px;
+}
+#daftar-artikel{
+  width:470px;
+  float:left;
+}
+article{
+  background:#ffffff;
+  padding:10px;
+  margin-bottom:20px;
+  overflow:hidden;
+}
+article img{
+  float:left;
+  margin-right:10px;
+  width:200px;
+  height:165px;
+}
+article b{
+  color:#616060;
+  background:#DDDDDD;
+  padding:3px;
+  font-size:12px;
+  font-weight:bold;
+  margin-right:10px;
+}
+article p{
+  margin:10px 0;
+}
+article a{
+  display:block;
+  text-align:right;
+  color:#636363;
+}
+#sidebar{
+  width:270px;
+  float:right;
+}
+#sidebar h2{
+  font-size:18px;
+  margin:10px 0;
+}
+#sidebar p{
+  line-height:20px;
+  color : #636363;
+}
+#sidebar ul{
+  margin-left:10px;
+}
+#sidebar ul li a{
+  color:#636363;
+  text-decoration:none; 
+}
+footer{
+  clear:both;
+  margin:20px 0;
+  text-align:center;
+  background-color: #f0f0f0;
+  padding:5px;
+  color:#555555;
+}
+
+#form { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #FFF8DC;
+  padding: 10px;
+}
+
+#form button,
+input,textarea {
+  padding: 0.5em;
+}
+.full-width {
+grid-column : 1 / 2;
+}
+
